@@ -1,4 +1,4 @@
-# My Universal React Project
+# Technical Exercise Davydov
 
 <p>
   <!-- iOS -->
@@ -31,13 +31,8 @@ You can generate native iOS and Android projects from your Expo config file (**a
 
 > 💡 Learn more about [native code in Expo](https://docs.expo.dev/workflow/customizing/)
 
-## Publishing
-
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
-
 ## 📝 Notes
 
-- Learn more about [Universal React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
+- you would need to generate personal token to use api.github.
+  The documentation for the GitHub API includes all the information necessary to
+  query the public API. Here’s a tip for getting started (source):

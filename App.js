@@ -1,15 +1,16 @@
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView } from "react-native";
+import CommitHistogramChart from "./src/components/CommitHistogramChart"
 
 export default function App() {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Universal React with Expo</Text>
-    </View>
+        <Text>Technical Exercise Davydov</Text>
+        <CommitHistogramChart />
+    </SafeAreaView>
   );
 }
